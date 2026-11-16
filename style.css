@@ -1,0 +1,25 @@
+:root{--ink:#1d2433;--paper:#fbfcfe;--accent:#3a4fd7;--mark:#ffe46b;--line:#d9deea;--soft:#eef1f8}
+*{box-sizing:border-box}
+html{font-size:18px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans TC",system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.85}
+.page{max-width:42rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+a{color:var(--accent);text-underline-offset:.2em}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+h1{font-size:2rem;line-height:1.3;margin:0 0 .5rem}
+h2{font-size:1.35rem;margin:2.5rem 0 .75rem;padding-bottom:.35rem;border-bottom:2px solid var(--line)}
+h3{font-size:1.1rem;margin:1.75rem 0 .5rem}
+.meta{color:#5b6478;font-size:.85rem;margin:0 0 1.5rem}
+.summary{font-size:1.1rem;background:linear-gradient(transparent 55%,var(--mark) 55%);padding:0 .15em}
+.key{border-left:4px solid var(--accent);background:var(--soft);padding:.75rem 1rem;margin:1.5rem 0}
+.key p{margin:0}
+pre{background:var(--ink);color:var(--paper);padding:1rem;border-radius:6px;overflow-x:auto;font-size:.8rem;line-height:1.6}
+code{font-family:ui-monospace,Menlo,Consolas,monospace}
+p code{background:var(--soft);padding:.1em .35em;border-radius:3px;font-size:.85em}
+.exercise{border:2px dashed var(--accent);padding:1rem 1.25rem;margin:2rem 0}
+.exercise h3{margin-top:0}
+.lesson-list{padding-left:0;list-style:none;margin:2rem 0}
+.lesson-list li{padding:1rem 0;border-bottom:1px solid var(--line)}
+.lesson-list a{font-weight:700;font-size:1.1rem}
+.lesson-list p{margin:.15rem 0 0;color:#5b6478;font-size:.9rem}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.9rem}
+.site-name{font-size:.85rem;margin-bottom:2rem}
